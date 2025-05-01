@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Micronix Battery Dealer - Yoganandam</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(45deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+    }
+
+    .contact a {
+      color: #00ffcc;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 3rem;
+      justify-content: center;
+    }
+
+    .battery {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .battery:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .battery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .battery img:hover {
+      transform: scale(1.05);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .call {
+      background-color: #fd7e14;
+    }
+
+    .call:hover {
+      background-color: #e86c1c;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer a {
+      color: #00ffcc;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .container {
+        padding: 2rem;
+      }
+
+      .battery {
+        padding: 15px;
+      }
+
+      .button {
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 0.9rem;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .battery {
+        padding: 10px;
+      }
+
+      .battery h2 {
+        font-size: 1.2rem;
+      }
+
+      .button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Micronix Battery Dealer - Yoganandam</h1>
+    <p>Your trusted source for electric vehicle, heavy vehicle, and bike batteries | Custom sizes & models available</p>
+    <div class="contact">
+      📞 Call us: <a href="tel:+919786390900">+91 97863 90900</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="battery">
+      <h2>Electric Vehicle Batteries</h2>
+      <img src="electric scooter battery4.jpg" alt="Electric Vehicle Battery" />
+      <p>Our batteries provide reliable, long-lasting power for electric vehicles including scooters, bikes, and cars. We offer customizable sizes to suit your needs.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20Micronix%20batteries%20for%20my%20electric%20vehicle.%20Please%20share%20more%20details%20about%20available%20models%20and%20pricing." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+
+    <div class="battery">
+      <h2>Electric Bicycle Batteries</h2>
+      <img src="electric cycle battery.jpg" alt="Electric Bicycle Battery" />
+      <p>Powerful and efficient batteries for your e-bikes. Choose from various sizes and amp-hour ratings for optimal performance and durability.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20Micronix%20batteries%20for%20my%20electric%20bicycle.%20Please%20share%20more%20details%20about%20available%20models%20and%20pricing." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+
+    <div class="battery">
+      <h2>Car & Bike Batteries</h2>
+      <img src="Electric 4 wheeler battery.jpg" alt="Car Battery" />
+      <p>Our high-quality batteries are perfect for both cars and bikes, available in both lead-acid and lithium models for better performance.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20Micronix%20batteries%20for%20my%20vehicle.%20Please%20share%20more%20details%20about%20available%20models%20and%20pricing." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+
+    <div class="battery">
+      <h2>Custom Battery Sizes</h2>
+      <img src="your dimention.jpg" />
+      <p>Need a custom battery size? We provide solutions tailored to your exact requirements. Get the perfect battery size for your specific vehicle or project.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20customizing%20a%20Micronix%20battery.%20Please%20help%20me%20choose%20the%20right%20size%20for%20my%20vehicle." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+
+    <div class="battery">
+      <h2>Heavy Vehicle Batteries</h2>
+      <img src="electric sooter battery 1.jpg" alt="Heavy Vehicle Battery" />
+      <p>High-capacity batteries designed for heavy-duty vehicles like trucks, buses, and construction machinery. Reliable power for even the most demanding applications.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20Micronix%20heavy%20vehicle%20batteries.%20Please%20share%20more%20details%20about%20available%20models%20and%20pricing." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+
+    <div class="battery">
+      <h2>Heavy Bike Batteries</h2>
+      <img src="electric Three wheeler battery 2 .jpg" alt="Heavy Bike Battery" />
+      <p>Powerful and reliable batteries for heavy bikes and motorcycles. Our batteries ensure longer rides and better performance for your bike.</p>
+      <a href="https://wa.me/919786390900?text=Hello%2C%20I'm%20interested%20in%20Micronix%20heavy%20bike%20batteries.%20Please%20share%20more%20details%20about%20available%20models%20and%20pricing." class="button">Chat on WhatsApp</a>
+      <a href="tel:+919786390900" class="button call">Call Now</a>
+    </div>
+  </div>
+
+  <!-- Locations Section -->
+  <section style="background-color: #e0f7fa; padding: 2rem; text-align: center;">
+    <h2 style="color: #00796b;">Locations We Serve</h2>
+    <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto;">
+      We proudly serve customers across <strong>Tamil Nadu</strong> and <strong>Karnataka</strong>, including cities like 
+      <strong>Hosur, Krishnagiri, Dharmapuri, Salem, Bengaluru, Mysuru</strong> and more.
+      Delivery and installation services available on request.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Micronix Battery Dealer - Yoganandam | 📞 +91 97863 90900 | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
